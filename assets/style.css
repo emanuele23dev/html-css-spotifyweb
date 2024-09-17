@@ -121,7 +121,18 @@ h2 {
     margin-top: 150px;
 }
 
-.more-listen{
+.more-listen-john{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-top: 15px;
+    color: rgb(161, 161, 161);
+}
+
+.popular-artist{
+    margin-top: 120px;
+}
+
+.more-listen-artist{
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     margin-top: 15px;
