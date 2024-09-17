@@ -41,7 +41,7 @@ background-color: rgb(44, 36, 59);
 }
 
 header{
-    background-color: rgb(35, 32, 51);
+    background-color: rgb(25, 23, 38);
     height: 70px;
     text-align: right;
     button{background-color: transparent;
@@ -63,19 +63,28 @@ header{
     width: 95%;
     height: 80%;
     margin: auto;
-    background-color: aqua;
+    
 }
 
 .nav-menu-content{
     display: flex;
     justify-content: space-around;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 30px;
     a{
         color: white;
         text-decoration: none;
+        font-size: 12px;
+        font-weight: 700;
     }
+}
+
+h2 {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
 }
 
 .row{
