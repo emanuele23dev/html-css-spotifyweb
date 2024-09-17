@@ -14,7 +14,7 @@ body {
 }
 
 .top {
-  height: calc(100% - 100px);
+  height: calc(100% - 60px);
   background-color: rgb(44, 36, 59);
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 .bottom {
-  height: 100px;
+  height: 60px;
   width: 100%;
   background-color: rgb(46, 46, 46);
 }
@@ -34,10 +34,120 @@ body {
   height: 100%;
 }
 
+/* TOP SIDEBAR  */
+.logo-sidebar,
+ol {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+ol {
+  text-align: left;
+  list-style: none;
+  li {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    span {
+      align-content: center;
+      padding-left: 5px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+}
+
+h3 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.plus {
+  color: rgb(23, 23, 23);
+  background-color: rgb(182, 182, 182);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.playlist {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.app-bottom {
+  margin-top: 190px;
+  margin-left: 20px;
+  .app {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+}
+
+.under-line-sidebar {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid grey;
+  max-width: 80%;
+  margin-left: 20px;
+}
+
+.user {
+  color: rgb(23, 23, 23);
+  background-color: rgb(182, 182, 182);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.user-jd {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+/* TOP CONTENT  */
 .content {
   width: calc(100% - 250px);
   height: 100%;
   overflow-y: scroll;
+  header {
+    position: fixed;
+    width: 82.6%;
+    z-index: 100;
+  }
 }
 
 header {
@@ -138,6 +248,7 @@ h2 {
   margin-top: 15px;
   color: rgb(161, 161, 161);
 }
+/* END TOP CONTENT  */
 
 /* MEDIA QUERY  */
 
@@ -203,7 +314,7 @@ h2 {
     display: flex;
     .col-6-sm {
       width: 140px;
-      margin-bottom:40px;
+      margin-bottom: 40px;
     }
   }
 
@@ -218,5 +329,4 @@ h2 {
       line-height: 4;
     }
   }
-
 }
