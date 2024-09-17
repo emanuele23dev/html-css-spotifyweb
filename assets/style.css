@@ -142,6 +142,17 @@ h2 {
 /* MEDIA QUERY  */
 
 @media screen and (max-width: 820px) {
+    .row-md{
+        flex-wrap: wrap;
+    }
+
+    .nav-menu-content-md{
+        margin: 30px auto;
+
+        a{
+            font-size: 10px;
+        }
+    }
 }
 
 @media screen and (max-width: 420px) {
