@@ -40,6 +40,29 @@ height: calc(100% - 100px);
     height: 100%;
 }
 
+.container{
+    width: 80%;
+    height: 95%;
+    margin: auto;
+    background-color: blue;
+}
+
+.row{
+    display: flex;
+}
+
+.recent-play-title{
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.col-2{
+width: calc( 100% / 12 * 2 );
+background-color: brown;
+height: 170px;
+margin-top: 30px;
+margin-right: 20px;
+}
 
 
 /* MEDIA QUERY  */
