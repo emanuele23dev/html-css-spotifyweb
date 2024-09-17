@@ -16,6 +16,7 @@ body{
 
 .top{
 height: calc(100% - 100px);
+background-color: black;
 }
 
 .d-flex{
@@ -47,12 +48,29 @@ height: calc(100% - 100px);
     background-color: blue;
 }
 
+.nav-menu-content{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+ a{
+        color: white;
+        text-decoration: none;
+    }
+
 .row{
     display: flex;
 }
 
 .recent-play-title{
-    margin-top: 100px;
+    margin-top: 50px;
     display: inline-block;
 }
 
