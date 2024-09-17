@@ -16,11 +16,26 @@ body{
 
 .top{
 height: calc(100% - 100px);
-background-color: brown;
+}
+
+.d-flex{
+    display: flex;
 }
 
 .bottom{
     height: 100px;
     width: 100%;
     background-color: blueviolet;
+}
+
+.sidebar{
+    background-color: aqua;
+    width: 250px;
+    height: 100%;
+}
+
+.content{
+    background-color: rgb(31, 30, 30);
+    width: calc(100% - 250px);
+    height: 100%;
 }
