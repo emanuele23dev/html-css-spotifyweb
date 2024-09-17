@@ -10,7 +10,6 @@ img{
 
 body{
     height: 100vh;
-    overflow: hidden;
     width: 100%;
 }
 
@@ -33,11 +32,13 @@ background-color: rgb(44, 36, 59);
     background-color: rgb(23, 23, 23);
     width: 250px;
     height: 100%;
+
 }
 
 .content{
     width: calc(100% - 250px);
     height: 100%;
+    overflow-y: scroll;
 }
 
 header{
@@ -51,6 +52,8 @@ header{
     margin-right: 10px;
     border-radius: 30px;
     border: 1px solid white;
+    position: sticky;
+    z-index: 100;
     }
     a{
         color: white;
@@ -64,7 +67,6 @@ header{
     width: 95%;
     height: 80%;
     margin: auto;
-    
 }
 
 .nav-menu-content{
