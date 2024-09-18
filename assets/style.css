@@ -181,6 +181,13 @@ header {
   }
 }
 
+.bt-md:hover{
+  background-color: white;
+  a{
+    color: rgb(25, 23, 38);
+  }
+}
+
 .container {
   width: 95%;
   height: 80%;
