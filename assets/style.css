@@ -303,6 +303,15 @@ h2 {
       font-size: 10px;
     }
   }
+
+  .app-bottom-md,
+  .user-md {
+    margin-left: 10px;
+  }
+  .app-bottom-md {
+    margin-top: 90px;
+  }
+
 }
 
 @media screen and (max-width: 420px) {
@@ -364,6 +373,6 @@ h2 {
     margin-left: 10px;
   }
   .app-bottom-sm {
-    margin-top: 490px;
+    margin-top: 300px;
   }
 }
