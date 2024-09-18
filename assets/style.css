@@ -102,7 +102,7 @@ a {
 .app-bottom {
   margin-top: 190px;
   margin-left: 20px;
-  .app {
+  .app-text {
     color: white;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
@@ -256,13 +256,33 @@ h2 {
 
 /* MEDIA QUERY  */
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 768px) {
+  .logo-md{
+    display: none;
+  }
+
+  .name-playlist-md{
+    font-size: 12px;
+  }
+
+    .list-md{
+    li{
+      font-size: 12px;
+      }  
+      .home-text-md, .cerca-text-md, .library-text-md{
+        margin-top: 5px;
+        display: inline-block;
+    }
+  }
+
+  
   .bt-md {
     width: 150px;
     a {
       font-size: 10px;
     }
   }
+  
 
   .container {
     width: 95%;
@@ -311,28 +331,27 @@ h2 {
   .app-bottom-md {
     margin-top: 90px;
   }
-
 }
 
 @media screen and (max-width: 420px) {
-  .sidebar-sm {
+  .sidebar-xs {
     width: 50px;
     h3,
     .plus,
-    .playlist,
-    .name-sm-none,
-    .app,
-    .user-jd,
-    hr {
+    .playlist-xs,
+    .name-playlist-xs-none,
+    .app-text,
+    .user-jd-xs,
+    hr, .home-text-md, .cerca-text-md, .library-text-md {
       display: none;
     }
   }
 
-  .content-sm {
+  .content-xs {
     width: calc(100% - 50px);
   }
 
-  .row-sm {
+  .row-xs {
     display: flex;
     .col-6-sm {
       width: 140px;
@@ -340,7 +359,7 @@ h2 {
     }
   }
 
-  .nav-menu-content-sm {
+  .nav-menu-content-xs {
     display: inline-block;
     margin: 10px auto;
     text-align: center;
@@ -355,24 +374,24 @@ h2 {
   .logo-sidebar {
     display: none;
   }
-  .logo-sm {
+  .logo-xs {
     display: inline-block;
     width: 25px;
     margin-top: 20px;
     margin-left: 10px;
   }
 
-  .list-sm {
+  .list-xs {
     margin-left: 10px;
     span {
       display: none;
     }
   }
-  .app-bottom-sm,
-  .user-sm {
+  .app-bottom-xs,
+  .user-xs {
     margin-left: 10px;
   }
-  .app-bottom-sm {
+  .app-bottom-xs {
     margin-top: 300px;
   }
 }
