@@ -141,6 +141,7 @@ a {
   margin-top: 15px;
   margin-left: 10px;
 }
+/* END TOP SIDEBAR  */
 
 /* TOP CONTENT  */
 .content {
@@ -254,6 +255,32 @@ h2 {
   color: rgb(161, 161, 161);
 }
 /* END TOP CONTENT  */
+
+/* BOTTOM  */
+
+.name-song{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  ul{
+    list-style: none;
+  }
+  img, ul, i{
+    padding-right: 20px;
+    color: white;
+  }
+
+  ul{
+    padding-right: 50px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .soundtrack{
+    color: gray;
+    font-size: 12px;
+  }
+}
+
 
 /* MEDIA QUERY  */
 

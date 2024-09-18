@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="icon" href="./assets/img/Spotify-Icon-Logo.wine.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Spotify</title>
   </head>
   <body>
@@ -18,7 +25,7 @@
         />
         <img
           width="30px"
-          class=" logo logo-l logo-md logo-s logo-xs"
+          class="logo logo-l logo-md logo-s logo-xs"
           src="./assets/img/logo-small.svg"
           alt=""
         />
@@ -30,7 +37,12 @@
               width="25px"
               src="./assets/img/home.svg"
               alt=""
-            /><a href="#"><span class="home-text home-text-l home-text-md home-text-s home-text-xs">Home</span></a>
+            /><a href="#"
+              ><span
+                class="home-text home-text-l home-text-md home-text-s home-text-xs"
+                >Home</span
+              ></a
+            >
           </li>
 
           <li>
@@ -39,7 +51,12 @@
               width="25px"
               src="./assets/img/search.svg"
               alt=""
-            /><a href=""><span class="cerca-text cerca-text-l cerca-text-md cerca-text-s cerca-text-xs">Cerca</span></a>
+            /><a href=""
+              ><span
+                class="cerca-text cerca-text-l cerca-text-md cerca-text-s cerca-text-xs"
+                >Cerca</span
+              ></a
+            >
           </li>
 
           <li>
@@ -48,15 +65,24 @@
               width="25px"
               src="./assets/img/libreria.svg"
               alt=""
-            /><a href=""><span class="library-text library-text-l library-text-md library-text-s library-text-xs">La tua libreria</span></a>
+            /><a href=""
+              ><span
+                class="library-text library-text-l library-text-md library-text-s library-text-xs"
+                >La tua libreria</span
+              ></a
+            >
           </li>
         </ol>
         <h3>Playlist</h3>
         <div class="d-flex">
           <a href="#"><div class="plus">+</div></a>
-          <div class="playlist playlist-l playlist-md playlist-s playlist-xs">Crea Playlist</div>
+          <div class="playlist playlist-l playlist-md playlist-s playlist-xs">
+            Crea Playlist
+          </div>
         </div>
-        <ol class="name-playlist name-playlist-l name-playlist-md name-playlist-s  name-playlist-xs-none">
+        <ol
+          class="name-playlist name-playlist-l name-playlist-md name-playlist-s name-playlist-xs-none"
+        >
           <li><a href="#">Nome Playlist</a></li>
           <li><a href="#">Nome Playlist</a></li>
           <li><a href="#">Nome Playlist</a></li>
@@ -75,7 +101,9 @@
             ><div class="user user-l user-md user-s user-xs">
               <img width="20px" src="./assets/img/profile.svg" alt="" /></div
           ></a>
-          <div class="user-jd user-jd-l user-jd-md user-jd-s user-jd-xs">John Doe</div>
+          <div class="user-jd user-jd-l user-jd-md user-jd-s user-jd-xs">
+            John Doe
+          </div>
         </div>
       </div>
 
@@ -85,7 +113,9 @@
         </header>
 
         <div class="container">
-          <div class="nav-menu-content nav-menu-content-l nav-menu-content-md nav-menu-content-s nav-menu-content-xs">
+          <div
+            class="nav-menu-content nav-menu-content-l nav-menu-content-md nav-menu-content-s nav-menu-content-xs"
+          >
             <a href="#">IN EVIDENZA</a>
             <a href="#">PODCAST</a>
             <a href="#">CLASSIFICHE</a>
@@ -129,8 +159,12 @@
             </div>
           </div>
 
-          <h2 class="john-doe john-doe-l john-doe-md john-doe-s john-doe-xs">Creato per John Doe</h2>
-          <p class="more-listen-john more-listen-john-l more-listen-john-md more-listen-john-s more-listen-john-xs">
+          <h2 class="john-doe john-doe-l john-doe-md john-doe-s john-doe-xs">
+            Creato per John Doe
+          </h2>
+          <p
+            class="more-listen-john more-listen-john-l more-listen-john-md more-listen-john-s more-listen-john-xs"
+          >
             Più ascolti, più accurati saranno i suggerimenti.
           </p>
           <div class="row row-l row-md row-s row-xs">
@@ -144,7 +178,9 @@
             </div>
           </div>
 
-          <h2 class="popular-artist popular-artist-l popular-artist-md popular-artist-s popular-artist-xs">
+          <h2
+            class="popular-artist popular-artist-l popular-artist-md popular-artist-s popular-artist-xs"
+          >
             Artisti più popolari
           </h2>
           <p
@@ -166,6 +202,18 @@
       </div>
     </div>
 
-    <div class="bottom"></div>
+    <div class="bottom d-flex">
+      <div class="name-song">
+        <img width="50px" src="./assets/img/sinister.jpeg" alt="" />
+        <ul>
+          <li><strong>Sinister</strong></li>
+          <li class="soundtrack">Brano Nome</li>
+        </ul>
+        <a href="#"><i class="fa-regular fa-heart"></i></a>
+        <a href=""><i class="fa-regular fa-folder"></i></a>
+      </div>
+      <div class="player"></div>
+      <div class="volume"></div>
+    </div>
   </body>
 </html>
