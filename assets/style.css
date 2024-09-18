@@ -293,6 +293,11 @@ h2 {
   justify-content: space-between;
   align-items: center;
   color: white;
+  a{
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
 
 .volume {
