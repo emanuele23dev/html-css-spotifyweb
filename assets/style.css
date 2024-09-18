@@ -22,6 +22,11 @@ body {
   display: flex;
 }
 
+.d-flex-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
 .bottom {
   height: 60px;
   width: 100%;
@@ -258,29 +263,45 @@ h2 {
 
 /* BOTTOM  */
 
-.name-song{
+.name-song {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 20px;
-  ul{
+  ul {
     list-style: none;
   }
-  img, ul, i{
+  img,
+  ul,
+  i {
     padding-right: 20px;
     color: white;
   }
 
-  ul{
+  ul {
     padding-right: 50px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
-  .soundtrack{
+  .soundtrack {
     color: gray;
     font-size: 12px;
   }
 }
 
+.player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.volume {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  color: white;
+}
 
 /* MEDIA QUERY  */
 
@@ -342,7 +363,7 @@ h2 {
     font-size: 12px;
   }
 
-   .list-l {
+  .list-l {
     li {
       font-size: 12px;
     }
