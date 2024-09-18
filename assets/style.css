@@ -315,15 +315,15 @@ h2 {
     font-size: 12px;
   }
 
-  .list-l {
+   .list-l {
     li {
       font-size: 12px;
-      .home-text-l,
-      .cerca-text-l,
-      .library-text-l{
-        margin-top: 5px;
-        display: inline-block;
-      }
+    }
+    .home-text-l,
+    .cerca-text-l,
+    .library-text-l {
+      margin-top: 5px;
+      display: inline-block;
     }
   }
 }
@@ -452,10 +452,7 @@ h2 {
     .name-playlist-xs-none,
     .app-text,
     .user-jd-xs,
-    hr,
-    .home-text-md,
-    .cerca-text-md,
-    .library-text-md {
+    hr {
       display: none;
     }
   }
@@ -501,7 +498,10 @@ h2 {
 
   .list-xs {
     margin-left: 10px;
-    span {
+    span,
+    .home-text-xs,
+    .cerca-text-xs,
+    .library-text-xs {
       display: none;
     }
   }
