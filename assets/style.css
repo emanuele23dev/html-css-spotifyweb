@@ -164,6 +164,9 @@ header {
   background-color: rgb(25, 23, 38);
   height: 70px;
   text-align: right;
+  position: sticky;
+  top: 0;
+  left: 0;
   button {
     background-color: transparent;
     height: 40px;
@@ -181,9 +184,9 @@ header {
   }
 }
 
-.bt-md:hover{
+.bt-md:hover {
   background-color: white;
-  a{
+  a {
     color: rgb(25, 23, 38);
   }
 }
@@ -293,7 +296,7 @@ h2 {
     color: gray;
     font-size: 12px;
   }
-  a{
+  a {
     font-size: 12px;
   }
 }
@@ -303,22 +306,22 @@ h2 {
   justify-content: space-between;
   align-items: center;
   color: white;
-  a{
+  a {
     color: white;
     margin-right: 10px;
     margin-left: 10px;
   }
 
-   ul {
+  ul {
     list-style: none;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    .icon-play{
+    .icon-play {
       text-align: center;
     }
-    .time-bar{
+    .time-bar {
       font-size: 10px;
       margin-top: 4px;
-      .bar{
+      .bar {
         width: 250px;
         height: 3px;
         margin-right: 20px;
@@ -334,18 +337,18 @@ h2 {
   align-items: center;
   margin-right: 20px;
   color: white;
-  a{
+  a {
     color: white;
     margin-right: 10px;
     margin-left: 10px;
     font-size: 12px;
   }
-  
-  .bar-grey{
+
+  .bar-grey {
     border: 1px solid grey;
     width: 70px;
   }
-  .bar-light{
+  .bar-light {
     position: absolute;
     border: 1px solid rgb(255, 255, 255);
     width: px;
@@ -353,14 +356,13 @@ h2 {
     width: 30px;
     margin-left: 100px;
   }
-
 }
 
 /* MEDIA QUERY  */
 
 @media screen and (max-width: 1200px) {
   .app-bottom-l {
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
   .john-doe-l,
@@ -425,6 +427,27 @@ h2 {
     .library-text-l {
       margin-top: 5px;
       display: inline-block;
+    }
+  }
+
+  .player-l {
+    ul {
+      .icon-play-l {
+        text-align: center;
+      }
+      .time-bar-l {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-size: 9px;
+        margin-top: 10px;
+        .bar-l {
+          width: 200px;
+          height: 2px;
+          margin-right: 10px;
+          margin-left: 10px;
+        }
+      }
     }
   }
 }
@@ -512,7 +535,7 @@ h2 {
     margin-left: 10px;
   }
   .app-bottom-md {
-    margin-top: 90px;
+    margin-top: 60px;
   }
 }
 
@@ -541,6 +564,62 @@ h2 {
         padding-top: 10px;
       }
     }
+  }
+
+  .app-bottom-s {
+    margin-top: 60px;
+  }
+
+  .name-song-s {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+
+    .icon-name-player {
+      display: flex;
+      flex-direction: column;
+      a {
+        margin-top: 5px;
+      }
+    }
+
+    ul {
+      padding-right: 10px;
+    }
+    .soundtrack-s {
+      font-size: 11px;
+      width: 70px;
+    }
+    strong {
+      font-size: 12px;
+    }
+  }
+
+  .player-s {
+    ul {
+      .icon-play-s {
+        text-align: center;
+        font-size: 14px;
+      }
+      .time-bar-s {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 9px;
+        margin-top: 10px;
+        .bar-s {
+          width: 120px;
+          height: 2px;
+          margin-right: 5px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  .volume {
+    margin-right: 10px;
   }
 }
 
@@ -611,6 +690,78 @@ h2 {
     margin-left: 10px;
   }
   .app-bottom-xs {
-    margin-top: 280px;
+    margin-top: 250px;
+  }
+
+  .name-song-s {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    img {
+      padding-right: 15px;
+    }
+
+    .icon-name-player {
+      display: flex;
+      flex-direction: column;
+      a {
+        margin-top: 5px;
+      }
+    }
+
+    ul {
+      padding-right: 10px;
+    }
+    .soundtrack-s {
+      font-size: 8px;
+      width: 30px;
+    }
+    strong {
+      font-size: 10px;
+    }
+  }
+
+  .player-s {
+    ul {
+      .icon-play-s {
+        text-align: center;
+        font-size: 13px;
+      }
+      .time-bar-s {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 8px;
+        margin-top: 10px;
+        .bar-s {
+          width: 100px;
+          height: 2px;
+          margin-right: 5px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  .volume {
+    margin-right: 10px;
+    a {
+      margin-right: 5px;
+      margin-left: 5px;
+      font-size: 9px;
+    }
+    .bar-grey {
+      border: 1px solid grey;
+      width: 30px;
+    }
+    .bar-light {
+      position: absolute;
+      border: 1px solid rgb(255, 255, 255);
+      width: px;
+      display: inline-block;
+      width: 10px;
+      margin-left: 60px;
+    }
   }
 }
